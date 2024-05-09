@@ -16,10 +16,14 @@ def executeProgram(registers):
 
         match instruction[0][0]:
             case 'c': # copy function
-                if (instruction[1].isdecimal()):
-                    registers[instruction[2]] = int(instruction[1])
-                else:
-                    registers[instruction[2]] = registers[instruction[1]]
+                value = None
+
+                try:
+                    value = int(instruction[1])
+                except:
+                    value = registers[instruction[1]]
+
+                registers[instruction[2]] = value
                 
             case 'i': # increment instruction
                 registers[instruction[1]] += 1
@@ -28,16 +32,23 @@ def executeProgram(registers):
                 registers[instruction[1]] -= 1
             
             case 'j': # jump on not zero instruction
-                if (instruction[1].isdecimal()):
-                    if (int(instruction[1]) != 0):
-                        programCounter += int(instruction[2])
-                        continue
+                jumpAmount = None
+                condition = None
 
-                else:
-                    if (registers[instruction[1]] != 0):
-                        programCounter += int(instruction[2])
-                        continue
-        
+                try:
+                    jumpAmount = int(instruction[2])
+                except:
+                    jumpAmount = registers[instruction[2]]
+
+                try:
+                    condition = int(instruction[1])
+                except:
+                    condition = registers[instruction[1]]
+
+                if condition != 0:
+                    programCounter += jumpAmount
+                    continue
+
         programCounter += 1
 
     return registers
