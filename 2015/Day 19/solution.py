@@ -35,7 +35,7 @@ def taskOne(inputStream):
 
             index += 1
 
-    print(len(uniqueMolecules.keys())) #518 
+    print(len(uniqueMolecules.keys()))
 
 '''
 Let's work on a smaller input:
@@ -75,7 +75,7 @@ def taskTwo(inputStream):
             if inputStream[index+1] == "r":
                 moleculeCount -= 1        
 
-    print(moleculeCount) #200
+    print(moleculeCount)
 
 taskOne(inputStream)
 taskTwo(inputStream)

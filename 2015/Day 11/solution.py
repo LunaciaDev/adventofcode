@@ -53,7 +53,7 @@ def taskOne(password):
         passwordIncrement(password, 7)
     
     for character in password:
-        print(chr(character), end="") #cqjxxyzz
+        print(chr(character), end="")
     print()
 
 def taskTwo(password):
@@ -62,7 +62,7 @@ def taskTwo(password):
         passwordIncrement(password, 7)
     
     for character in password:
-        print(chr(character), end="") #cqkaabcc
+        print(chr(character), end="")
     print()
 
 taskOne(password)

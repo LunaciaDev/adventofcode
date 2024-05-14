@@ -119,7 +119,7 @@ def taskOne(inputStream):
         
         return minManaSpent
 
-    print(combatSim(playerHP, playerMana, bossStat[0], 0, [0, 0, 0], 0)) #953
+    print(combatSim(playerHP, playerMana, bossStat[0], 0, [0, 0, 0], 0))
 
 def taskTwo(inputStream):
     bossStat = []
@@ -200,7 +200,7 @@ def taskTwo(inputStream):
         
         return minManaSpent
 
-    print(combatSim(playerHP, playerMana, bossStat[0], 0, [0, 0, 0], 0)) #1289
+    print(combatSim(playerHP, playerMana, bossStat[0], 0, [0, 0, 0], 0))
 
 
 taskOne(inputStream)

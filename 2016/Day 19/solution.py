@@ -42,5 +42,5 @@ def taskTwo(inputStream):
 
     return elvesCircle[0]
 
-print(taskOne(inputStream)) # 1842613
-print(taskTwo(inputStream)) # 1424135
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

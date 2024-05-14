@@ -32,7 +32,7 @@ def taskOne():
                 if score > maxScore:
                     maxScore = score
 
-    print(maxScore) #21367368
+    print(maxScore)
 
 def taskTwo():
     maxScore = 0
@@ -45,7 +45,7 @@ def taskTwo():
                 if score > maxScore and (3*(a+b) + 8*(c+d)) == 500:
                     maxScore = score
     
-    print(maxScore) #1766400
+    print(maxScore)
 
 taskOne()
 taskTwo()

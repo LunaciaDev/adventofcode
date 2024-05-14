@@ -17,7 +17,7 @@ def taskOne(inputStream):
         wrappingPaperSize += 3*present[0]*present[1] + 2*present[1]*present[2] + 2*present[2]*present[0]
     
 
-    print(wrappingPaperSize) #1588178
+    print(wrappingPaperSize)
 
 def taskTwo(inputStream):
     ribbonLength = 0
@@ -25,7 +25,7 @@ def taskTwo(inputStream):
     for present in inputStream:
         ribbonLength += 2*present[0] + 2*present[1] + present[0]*present[1]*present[2]
 
-    print(ribbonLength) #3783758
+    print(ribbonLength)
 
 taskOne(inputStream)
 taskTwo(inputStream)

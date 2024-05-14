@@ -105,7 +105,7 @@ def taskOne(inputStream):
 
     recursiveSolver("a")
 
-    print(int(wireSetup["a"], 2)) #956
+    print(int(wireSetup["a"], 2))
 
 def taskTwo(inputStream):
     global wireSetup #Surely safe
@@ -115,7 +115,7 @@ def taskTwo(inputStream):
 
     recursiveSolver("a")
 
-    print(int(wireSetup["a"], 2)) #40149
+    print(int(wireSetup["a"], 2))
 
 
 taskOne(inputStream)

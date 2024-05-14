@@ -225,7 +225,7 @@ def taskOne():
         "disabledFloor": [False, False, False, False]
     }
 
-    print(exploreFloors(startingState, objectCount)) # 37
+    print(exploreFloors(startingState, objectCount))
 
 def taskTwo():
     objectCount = 14
@@ -252,7 +252,7 @@ def taskTwo():
         "disabledFloor": [False, False, False, False]
     }
 
-    print(exploreFloors(startingState, objectCount)) # 61
+    print(exploreFloors(startingState, objectCount))
 
 taskOne()
 taskTwo()

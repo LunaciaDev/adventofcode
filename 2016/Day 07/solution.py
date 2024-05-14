@@ -51,7 +51,7 @@ def taskOne(inputStream):
         
         validIPCount += 1
     
-    print(validIPCount) # 118
+    print(validIPCount)
 
 def taskTwo(inputStream):
     validIPCount = 0
@@ -92,7 +92,7 @@ def taskTwo(inputStream):
             validIPCount += 1
             break
 
-    print(validIPCount) # 260
+    print(validIPCount)
 
 taskOne(inputStream)
 taskTwo(inputStream)

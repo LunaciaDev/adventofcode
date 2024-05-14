@@ -22,7 +22,7 @@ def taskOne(inputStream):
 
         errorCorrectedOutput.append(chr(maxValChar))
     
-    print("".join(errorCorrectedOutput)) #ygjzvzib
+    print("".join(errorCorrectedOutput))
 
 def taskTwo(inputStream):
     errorCorrectedOutput = []
@@ -42,7 +42,7 @@ def taskTwo(inputStream):
 
         errorCorrectedOutput.append(chr(maxValChar))
     
-    print("".join(errorCorrectedOutput)) #ygjzvzib
+    print("".join(errorCorrectedOutput))
 
 taskOne(inputStream)
 taskTwo(inputStream)

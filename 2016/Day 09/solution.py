@@ -33,7 +33,7 @@ def taskOne(inputStream):
         
         currentIndex += 1
     
-    print(extractedStreamLength) # 110346
+    print(extractedStreamLength)
 
 def taskTwo(inputStream):
     currentIndex = 0
@@ -70,4 +70,4 @@ def taskTwo(inputStream):
     return(extractedStreamLength)
 
 taskOne(inputStream)
-print(taskTwo(inputStream)) #10774309173
+print(taskTwo(inputStream))

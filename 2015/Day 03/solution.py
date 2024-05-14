@@ -21,7 +21,7 @@ def taskOne(inputStream):
         totalHouseGivenPresent += 1 - houseGrid[coordinate[0]][coordinate[1]]
         houseGrid[coordinate[0]][coordinate[1]] = 1
     
-    print(totalHouseGivenPresent) #2592
+    print(totalHouseGivenPresent)
 
 def taskTwo(inputStream):
     houseGrid = [[0 for i in range(200)] for k in range(200)]
@@ -40,7 +40,7 @@ def taskTwo(inputStream):
             continue
         currentTurn = 0
     
-    print(totalHouseGivenPresent) #2360
+    print(totalHouseGivenPresent)
 
 taskOne(inputStream)
 taskTwo(inputStream)

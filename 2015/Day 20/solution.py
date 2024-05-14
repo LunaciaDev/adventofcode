@@ -45,7 +45,7 @@ def taskTwo(inputStream):
                 presentCount += houseAddress // divisor * 11
 
         if presentCount > inputStream:
-            print(houseAddress) #705600
+            print(houseAddress)
             break
 
 

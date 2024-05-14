@@ -11,7 +11,7 @@ def taskOne(inputStream):
         if h.md5(bytes(inputStream + str(salt), encoding="utf-8")).hexdigest()[:5] == "00000":
             break
     
-    print(salt) #346386
+    print(salt)
 
 
 def taskTwo(inputStream):
@@ -21,7 +21,7 @@ def taskTwo(inputStream):
         if h.md5(bytes(inputStream + str(salt), encoding="utf-8")).hexdigest()[:6] == "000000":
             break
     
-    print(salt) #9958218
+    print(salt)
 
 taskOne(inputStream)
 taskTwo(inputStream)

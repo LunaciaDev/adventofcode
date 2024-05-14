@@ -27,7 +27,7 @@ def taskOne(inputStream):
         hexDigest = md5(str.encode(inputStream + str(postfix)))
         hexDigest = hexDigest.hexdigest()
     
-    print("".join(password)) #4543c154
+    print("".join(password))
 
 def stylepointDecryption(currentDecryptArray, solvedPosition):
     if (name == "nt"):
@@ -95,8 +95,6 @@ def taskTwo(inputStream):
         hexDigest = md5(str.encode(inputStream + str(postfix)))
         hexDigest = hexDigest.hexdigest()
         stylepointDecryption(password, solvedPosition)
-    
-    #1050cbbd
 
 taskOne(inputStream)
 taskTwo(inputStream)

@@ -38,7 +38,7 @@ def taskOne(inputStream):
             else: #only run if break didn't trigger
                 return sue[-1]
     
-    print(sueSearch()) #103
+    print(sueSearch())
 
 def taskTwo(inputStream):
     def sueSearch(): 
@@ -57,7 +57,7 @@ def taskTwo(inputStream):
                 return sue[-1]
             
     
-    print(sueSearch()) #103
+    print(sueSearch())
 
 taskOne(inputStream)
 taskTwo(inputStream)

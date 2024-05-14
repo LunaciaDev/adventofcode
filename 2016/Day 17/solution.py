@@ -66,5 +66,5 @@ def taskTwo(inputStream):
 
         if len(stateQueue) == 0: return maxDist
 
-print(taskOne(inputStream)) # DUDDRLRRRD
-print(taskTwo(inputStream)) # 578
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

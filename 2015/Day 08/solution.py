@@ -25,7 +25,7 @@ def taskOne(inputStream):
                 #no need to check if the last two char is hexadecimal
                 memorySize -= 3
 
-    print(codeSize - memorySize) #1371
+    print(codeSize - memorySize)
 
 def taskTwo(inputStream):
     codeSize = 0
@@ -42,7 +42,7 @@ def taskTwo(inputStream):
             if string[index] == "\\" and string[index+1] == "x":
                 encodeSize += 1
 
-    print(encodeSize - codeSize) #2117
+    print(encodeSize - codeSize)
 
 taskOne(inputStream)
 taskTwo(inputStream)

@@ -48,7 +48,7 @@ def taskOne():
                     if goldCost + ringCost < leastGoldCost:    
                         leastGoldCost = goldCost + ringCost
 
-    print(leastGoldCost) #111
+    print(leastGoldCost)
 
 def taskTwo():
     mostGoldCost = 0
@@ -75,7 +75,7 @@ def taskTwo():
                     if goldCost + ringCost > mostGoldCost:    
                         mostGoldCost = goldCost + ringCost
 
-    print(mostGoldCost) #188
+    print(mostGoldCost)
 
 taskOne()
 taskTwo()

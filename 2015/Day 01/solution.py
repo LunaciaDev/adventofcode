@@ -10,7 +10,7 @@ def taskOne(inputStream):
             continue
         currentFloor -= 1
     
-    print(currentFloor) #138
+    print(currentFloor)
 
 def taskTwo(inputStream):
     currentFloor = 0
@@ -29,7 +29,7 @@ def taskTwo(inputStream):
 
         currentFloor -= 1
 
-    print(position) #1771
+    print(position)
 
 taskOne(inputStream)
 taskTwo(inputStream)

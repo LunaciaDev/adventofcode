@@ -98,7 +98,7 @@ def taskOne(inputStream):
                 if (checkPosition[0] == 31 and checkPosition[1] == 39):
                     mazeMap[checkPosition[1]][checkPosition[0]] = -2
                     drawMazeMap(mazeMap, currentDist)
-                    print(currentDist - 1) # 96
+                    print(currentDist - 1)
                     return locationCount
 
                 if (mazeMap[checkPosition[1]][checkPosition[0]] > 0): continue

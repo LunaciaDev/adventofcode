@@ -31,5 +31,5 @@ def taskTwo(inputStream):
     
     return notBannedCount + max(0, 4294967295 - minBanned)
 
-print(taskOne(inputStream)) # 22887907
-print(taskTwo(inputStream)) # 109
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

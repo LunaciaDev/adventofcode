@@ -34,7 +34,7 @@ def taskOne(inputStream):
                 
         password = password + str(numpad[pointer[0]][pointer[1]])
     
-    print(password) #78985
+    print(password)
 
 def taskTwo(inputStream):
     numpad = [
@@ -70,7 +70,7 @@ def taskTwo(inputStream):
                 
         password = password + str(numpad[pointer[0]][pointer[1]])
     
-    print(password) #57DD8
+    print(password)
 
 taskOne(inputStream)
 taskTwo(inputStream)

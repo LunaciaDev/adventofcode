@@ -23,7 +23,7 @@ def taskOne(inputStream):
             if sum(containerSet) == 150:
                 combinationCount += 1
 
-    print(combinationCount) #1638
+    print(combinationCount)
 
 def taskTwo(inputStream):
     combinationCount = 0
@@ -37,7 +37,7 @@ def taskTwo(inputStream):
                 flag = True
                 combinationCount += 1
 
-    print(combinationCount) #17
+    print(combinationCount)
 
 taskOne(inputStream)
 taskTwo(inputStream)

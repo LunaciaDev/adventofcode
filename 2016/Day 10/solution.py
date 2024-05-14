@@ -105,14 +105,14 @@ def taskOne():
     for botID in botProgramming:
         bot = botProgramming[botID]
         if bot["currentChips"][0] == 17 and bot["currentChips"][1] == 61:
-            print(botID) # 86
+            print(botID)
             return
 
 def taskTwo():
     print(outputBins[0]
           * outputBins[1]
           * outputBins[2]
-        ) # 22847
+        )
 
 taskOne()
 taskTwo()

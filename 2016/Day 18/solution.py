@@ -98,5 +98,5 @@ def taskTwo(inputStream):
     return (colCount * rowCount) - trapCount
 
 
-print(taskOne(inputStream)) # 1926
-print(taskTwo(inputStream)) # 19986699
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

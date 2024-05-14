@@ -31,7 +31,7 @@ def taskOne(inputStream):
         if (checkString == room[1]):
             totalIndex += room[2]
 
-    print(totalIndex) #245102
+    print(totalIndex)
 
 def taskTwo(inputStream):
     for room in inputStream:
@@ -56,7 +56,7 @@ def taskTwo(inputStream):
             decryptedName.append(chr(newCharCode))
 
         if ("".join(decryptedName) == "northpole object storage"): # why
-            print(roomID) # 324
+            print(roomID)
             return
 
 taskOne(inputStream)

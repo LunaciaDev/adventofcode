@@ -40,13 +40,13 @@ def taskOne(inputStream):
     for _ in range(40):
         inputStream = solver(inputStream)
     
-    print(len(inputStream)) #329356
+    print(len(inputStream))
 
 def taskTwo(inputStream):
     for _ in range(50):
         inputStream = solver(inputStream)
     
-    print(len(inputStream)) #4666278
+    print(len(inputStream))
 
 taskOne(inputStream)
 taskTwo(inputStream)

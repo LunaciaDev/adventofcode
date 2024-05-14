@@ -42,7 +42,7 @@ def taskOne(inputStream):
         
         inputStream = newGrid
     
-    print(sum([sum(i) for i in inputStream])) #821
+    print(sum([sum(i) for i in inputStream]))
 
 def taskTwo(inputStream):
     inputStream = temp
@@ -60,7 +60,7 @@ def taskTwo(inputStream):
         
         inputStream = newGrid
     
-    print(sum([sum(i) for i in inputStream])) #886
+    print(sum([sum(i) for i in inputStream]))
 
 taskOne(inputStream)
 taskTwo(inputStream)

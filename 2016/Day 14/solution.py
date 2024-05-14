@@ -90,5 +90,5 @@ def taskTwo(inputStream):
     foundIndices.sort()
     return foundIndices[63]
 
-print(taskOne(inputStream)) # 18626
-print(taskTwo(inputStream)) # 20092
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

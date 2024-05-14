@@ -23,7 +23,7 @@ def taskOne(inputStream):
         if reindeerDist > maxDist:
             maxDist = reindeerDist
     
-    print(maxDist) #2640
+    print(maxDist)
 
 def taskTwo(inputStream):
     reindeerDist = [0 for i in range(9)]
@@ -74,7 +74,7 @@ def taskTwo(inputStream):
             reindeerPoint[reindeer] += 1
     
     reindeerPoint.sort()
-    print(reindeerPoint[-1]) #1102
+    print(reindeerPoint[-1])
         
 taskOne(inputStream)
 taskTwo(inputStream)

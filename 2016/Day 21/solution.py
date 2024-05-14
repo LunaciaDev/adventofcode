@@ -126,5 +126,5 @@ def taskTwo(inputStream):
 
     print("".join(password))
 
-taskOne(inputStream) # bgfacdeh
-taskTwo(inputStream) # bdgheacf
+taskOne(inputStream)
+taskTwo(inputStream)

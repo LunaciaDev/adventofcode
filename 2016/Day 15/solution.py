@@ -53,5 +53,5 @@ def taskTwo(inputStream):
     
     return minimumTime
 
-print(taskOne(inputStream)) # 317371
-print(taskTwo(inputStream)) # 2080951
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

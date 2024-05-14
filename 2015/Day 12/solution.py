@@ -17,7 +17,7 @@ def taskOne(inputStream):
             total += int(inputStream[startNumIndex:index])
             continue
         
-        index += 1    
+        index += 1
 
     print(total)
 
@@ -115,7 +115,7 @@ def taskTwo(inputStream):
         
         index += 1    
 
-    print(total) #65402
+    print(total)
 
 taskOne(inputStream)
 taskTwo(inputStream)

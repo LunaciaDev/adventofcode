@@ -46,10 +46,10 @@ def taskTwo(inputStream):
         
         print()
 
-    # Solving it by hand, yield 272
+    # Solving it by hand
     # Move the empty node to the top right corner of the grid
     # Then move the target data (top right-1) to the top left, each movement of the target cost 5 moves :D
 
 
-taskOne(inputStream) # 1038
+taskOne(inputStream)
 taskTwo(inputStream)

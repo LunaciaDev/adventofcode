@@ -63,7 +63,7 @@ def taskOne(inputStream):
 
     registers = executeProgram(registers)
 
-    print(registers['a']) # 318117
+    print(registers['a'])
 
 def taskTwo(inputStream):
     registers = {
@@ -75,7 +75,7 @@ def taskTwo(inputStream):
 
     registers = executeProgram(registers)
     
-    print(registers['a']) # 9227771
+    print(registers['a'])
 
 taskOne(inputStream)
 taskTwo(inputStream)

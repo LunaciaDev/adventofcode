@@ -33,7 +33,7 @@ def taskOne(inputStream):
         if vowelCount > 2 and doubleLetter:
             niceStringCount += 1
     
-    print(niceStringCount) #255
+    print(niceStringCount)
 
 def taskTwo(inputStream):
     niceStringCount = 0
@@ -55,7 +55,7 @@ def taskTwo(inputStream):
 
         niceStringCount += 1
 
-    print(niceStringCount) #55
+    print(niceStringCount)
 
 taskOne(inputStream)
 taskTwo(inputStream)

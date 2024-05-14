@@ -51,7 +51,7 @@ def taskOne(pathTable):
         if tempDist < minDistance:
             minDistance = tempDist
 
-    print(minDistance) #207
+    print(minDistance)
 
 def taskTwo(pathTable):
     def solver(unvisitedCities, currentDist, currentCity):
@@ -77,7 +77,7 @@ def taskTwo(pathTable):
         if tempDist > maxDistance:
             maxDistance = tempDist
 
-    print(maxDistance) #207
+    print(maxDistance)
 
 taskOne(pathTable)
 taskTwo(pathTable)

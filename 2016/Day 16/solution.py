@@ -67,5 +67,5 @@ def taskTwo(inputStream):
 
     return currentChecksum
 
-print(taskOne(inputStream)) # 10011010010010010
-print(taskTwo(inputStream)) # 10101011110100011
+print(taskOne(inputStream))
+print(taskTwo(inputStream))

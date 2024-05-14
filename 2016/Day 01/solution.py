@@ -25,7 +25,7 @@ def taskOne(inputStream):
         
         coordinate[int(direction[currentDirection][1])] += int(step[1:]) if direction[currentDirection][0] == "+" else -1 * int(step[1:])
 
-    print(abs(coordinate[0]) + abs(coordinate[1])) #209
+    print(abs(coordinate[0]) + abs(coordinate[1]))
 
 def taskTwo(inputStream):
     currentCoordinate = [300, 300]
@@ -52,7 +52,7 @@ def taskTwo(inputStream):
             currentCoordinate[int(direction[currentDirection][1])] += modifier
 
             if visitedCoordinate[currentCoordinate[0]][currentCoordinate[1]]:
-                print(abs(currentCoordinate[0]-300) + abs(currentCoordinate[1]-300)) #136
+                print(abs(currentCoordinate[0]-300) + abs(currentCoordinate[1]-300))
                 return
             
             visitedCoordinate[currentCoordinate[0]][currentCoordinate[1]] = True

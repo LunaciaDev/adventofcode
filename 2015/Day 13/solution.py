@@ -48,7 +48,7 @@ def taskOne(inputStream):
 
         return maxHappiness
     
-    print(recursiveSolver([1, 2, 3, 4, 5, 6, 7], [0])) #709
+    print(recursiveSolver([1, 2, 3, 4, 5, 6, 7], [0]))
 
 def taskTwo(inputStream):
     guest = {
@@ -95,7 +95,7 @@ def taskTwo(inputStream):
 
         return maxHappiness
     
-    print(recursiveSolver([1, 2, 3, 4, 5, 6, 7, 8], [0])) #668
+    print(recursiveSolver([1, 2, 3, 4, 5, 6, 7, 8], [0]))
 
 
 taskOne(inputStream)
